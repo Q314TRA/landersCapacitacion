@@ -1,0 +1,42 @@
+/*se agrega magen 0 al body para utilizar el 100% de la pagina*/
+body{
+	margin: 0px;
+}
+
+
+.header{
+	/*se agrega un tamaño fijo para ajustar los objetos del contenido*/
+	height: 100px;
+	/*color de fondo*/
+	background-color: whitesmoke;
+	/*margen interna*/
+	padding: 20px;
+	/*font-size: 12pt;*/
+}
+
+.header img{
+	/*tamaño*/
+	height: 100%;
+	/*margen externa*/
+	margin-left: 10%;
+}
+
+.body > div:first-child {
+	height: 300px;
+	padding: 20px;
+}
+
+div.body > div:first-child > div{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.body > div:first-child > .content-picture{
+	text-align: center;
+}
+
+.body > div:first-child img{
+	height: 300px;
+}
+ 
