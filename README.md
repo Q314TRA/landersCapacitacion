@@ -9,22 +9,22 @@
   - Practica css Selectors
     https://flukeout.github.io/
     
-  -- Paginas
+  - Paginas
   
-    -- Codigo
+    - Codigo
       tympanus.net/codrops/
       http://cssdeck.com/
       https://css-tricks.com/
     
-    -- Diseño - Tendencias
+    - Diseño - Tendencias
       http://www.awwwards.com/
       https://dribbble.com/
       http://designspiration.net/
       
-    -- Introduccion a JS
+    - Introduccion a JS
       https://www.codecademy.com/es/tracks/javascript-traduccion-al-espanol-america-latina-clone
       https://www.codeschool.com/learn/javascript
       
-    -- articulos
+    - articulos
       https://www.w3.org/TR/CSS21/selector.html%23id-selectors
       https://www.kirupa.com/html5/css_attribute_selectors.htm
