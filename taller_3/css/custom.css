@@ -1,0 +1,167 @@
+body {
+    margin:0;
+}
+div.header > div {
+    width: 100%;
+    color: white;
+}
+
+div.header > div:first-child {
+    background-color:#00796B;    
+}
+
+div.header > div:first-child h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+div.header > div:nth-child(2){
+    background-color:#009688;
+    max-width: 100%;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+div.header > div:nth-child(2) ul {
+    width 100%;
+    padding-left: 25px;
+    margin: 0;
+}
+
+div.header > div:nth-child(2) ul li {
+    display:inline-block;
+    margin-right: 20px;
+    border-right: 1px white solid;
+    padding-right: 18px;
+}
+
+div.header > div:nth-child(2) ul li:last-child {
+    border-right: none !important;
+}
+
+div.header > div:nth-child(2) span {
+    float: right;
+    margin-top:-15px;
+    margin-right: 19px;
+}
+
+div.body{
+    padding-top: 20px;
+}
+
+div.body > .content-left,
+div.body > .content-rigth{
+    display: table-cell;
+    width: 50%;    
+    vertical-align: top;
+}
+
+div.body > .content-left > div{
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: whiteSmoke;
+}
+
+div.body > .content-left > div:first-child img{
+    max-width: 20%;
+}
+
+div.body > .content-left > div:first-child div{
+    display: inline-block;
+    width: 49%;
+}
+
+div.body > .content-left > div:first-child div img,
+div.body > .content-left > div:first-child div p{
+    display: inline-block;
+}
+
+div.body > .content-left > div:first-child div p{    
+    width: 70%;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+div.body > .content-left .lista-items {
+    list-style: none;
+    margin-top: 30px;
+}
+
+div.body > .content-left .lista-items li {
+    padding: 5px;
+    margin-bottom: 10px; 
+}
+
+
+div.body > .content-left .lista-items li > div{
+    display: inline-block;
+}
+div.body > .content-left .lista-items li > div:nth-child(2){
+    float: right;
+    width: 75%;
+}
+div.body > .content-left .lista-items li > div p,
+div.body > .content-left .lista-items li > div h4{
+    margin: 0px;
+}
+
+.content-resize-image{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+div.body > .content-rigth > div{
+    background-color: whiteSmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.body > .content-rigth > div:nth-child(2) img{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.temp_prueba > div{
+    display: inline-block;
+    width: 49%;
+}
+
+.div-behindTo{
+    display: inline-block;
+    width: 43%;
+}
+
+div.footer{
+    background-color:#00796B;   
+    height: 100px;
+    width: 100%;
+    text-align: right;
+}
+div.footer a{
+    text-decoration: none;
+    color: white;
+
+    margin-top: 44px;    
+    display: inline-block;
+}
+
+
+.circle-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;    
+}
+
+.display-only-mobile{
+    display: none;
+}
+.hidde-only-mobile{
+    display: inherit;
+}
