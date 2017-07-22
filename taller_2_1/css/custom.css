@@ -1,0 +1,52 @@
+body{
+		font-family: 'Roboto', sans-serif;
+		margin: 0px;
+	}
+
+
+.header{
+	text-align: center;
+	background-color: #888;
+	display: inline-block;
+	color: white;
+	padding:  0px 15px; 
+}
+
+.body > div:first-child img{
+	max-width: 250px;
+	margin: 20px 100px;
+}
+
+.body > div:first-child{
+	background-color: #009688;
+	min-height: 300px;
+}
+
+.body > div:nth-child(2){
+	 width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+}
+.body > div:nth-child(2) > div{
+	padding: 15px;
+}
+.body > div:nth-child(2) > div:first-child{
+	background-color: white;
+	text-align: center;
+}
+
+.body > div:nth-child(2){
+	background-color: #B2EBF2;
+}
+
+.body > div:nth-child(2) label,
+.body > div:nth-child(2) input{
+	display: block;
+}
+
+.body > div:nth-child(2) > div:nth-child(2) > *{
+	display: block;
+	margin-bottom: 20px;
+}
