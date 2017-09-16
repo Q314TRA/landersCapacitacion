@@ -1,0 +1,13 @@
+
+#content-app{
+    height: calc(100vh - 56px) !important;
+}
+
+#content-app > div{
+    overflow-y: scroll;
+}
+
+#content-app > div .card{
+    margin-bottom: 0.5rem;
+
+}
