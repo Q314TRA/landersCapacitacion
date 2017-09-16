@@ -1,0 +1,5 @@
+.container 
+equivale a un contenedor del 70% de la pagina
+
+.container-fluid
+equivale a un contenedor del 100% de la pagina
